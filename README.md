@@ -38,4 +38,8 @@ optional arguments:
 
 ```
 
+Example code to train 50 dimensional embeddings without stopwords and using synset part information.
 
+```
+python train_wordnet.py --input wordnet_synset_definition.txt --outfile synsets.50.dbow.txt --size 50
+```
